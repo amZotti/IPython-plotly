@@ -12,6 +12,10 @@
             "body": "api_docs/includes/ipython_notebooks/salesforce/body.html", 
             "config": "api_docs/includes/ipython_notebooks/salesforce/config.json"
         }, 
+        "mongo": {
+            "body": "api_docs/includes/ipython_notebooks/mongo/body.html", 
+            "config": "api_docs/includes/ipython_notebooks/mongo/config.json"
+        }, 
         "collaborate": {
             "body": "api_docs/includes/ipython_notebooks/collaborate/body.html", 
             "config": "api_docs/includes/ipython_notebooks/collaborate/config.json"
@@ -34,6 +38,12 @@
         }
     }, 
     "splash": [
+        {
+            "title_short": "Graphing with MongoDB and Plotly", 
+            "thumbnail_image": "", 
+            "relative_url": "graphing-with-plotly-and-mongodb", 
+            "title": "Using Plotly, Node.js, and MongoDB Together to Create TimeSeries Graphs"
+        }, 
         {
             "title_short": "Interactive graphing with Salesforce", 
             "thumbnail_image": "", 
@@ -84,6 +94,7 @@
         }
     ], 
     "notebooks": [
+        "mongo", 
         "salesforce", 
         "gmail", 
         "markowitz", 

@@ -1,0 +1,15 @@
+{
+    "title": "Using Plotly, Node.js, and MongoDB Together to Create TimeSeries Graphs",
+    "title_short": "Graphing with MongoDB and Plotly",
+    "meta_description": "Learn how to integrate MongoDB and Plotly together.",
+    "cells": [0, "end"],
+    "relative_url": "graphing-with-plotly-and-mongodb",
+    "thumbnail_image": "",
+    "non_pip_deps": [
+        {
+            "name": "" ,
+            "urls": "",
+            "description": ""
+        }
+    ]
+}

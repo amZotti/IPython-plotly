@@ -5,6 +5,11 @@ from api_docs.views import IPythonNotebookPage
 
 urlpatterns = patterns(
     '',
+    url("graphing-with-plotly-and-mongodb/$",
+        IPythonNotebookPage.as_view(
+            lang='ipython-notebooks',
+            notebook='mongo'),
+        name='ipython-notebook-mongo'),
     url("salesforce/$",
         IPythonNotebookPage.as_view(
             lang='ipython-notebooks',

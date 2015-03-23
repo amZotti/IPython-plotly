@@ -44,7 +44,7 @@ from scipy.io import netcdf
 from mpl_toolkits.basemap import Basemap
 
 
-#### 1. Get the data!
+# ### 1. Get the data!
 
 # The data is taken from <a href="http://www.esrl.noaa.gov/psd/data/composites/day/" target="_blank">NOAA Earth System Research Laboratory</a>.
 # 
@@ -97,7 +97,7 @@ tmp_air = np.array(air)
 air = np.hstack((tmp_air[:,i_west], tmp_air[:,i_east]))
 
 
-#### 2. Make Contour graph object
+# ### 2. Make Contour graph object
 
 # Very simply,
 
@@ -114,7 +114,7 @@ trace1 = Contour(
 )
 
 
-#### 3. Get the coastlines and country boundaries with Basemap
+# ### 3. Get the coastlines and country boundaries with Basemap
 
 # The Basemap module includes data for drawing coastlines and country boundaries onto world maps. Adding coastlines and/or country boundaries on a matplotlib figure is done with the `.drawcoaslines()` or `.drawcountries()` Basemap methods. 
 # 
@@ -187,7 +187,7 @@ def get_country_traces():
 traces_cc = get_coastline_traces()+get_country_traces()
 
 
-#### 4. Make a figue object and plot!
+# ### 4. Make a figue object and plot!
 
 # Package the `Contour` trace with the coastline and country traces. Note that the `Contour` trace must be placed before the coastline and country traces in order to make all traces visible.
 

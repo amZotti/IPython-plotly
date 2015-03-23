@@ -1,0 +1,9 @@
+{
+    "meta_description": "Learn how to integrate MongoDB and Plotly together.", 
+    "github_url": "https://github.com/plotly/IPython-plotly/blob/master/notebooks/mongo", 
+    "title_short": "Graphing with MongoDB and Plotly", 
+    "last_modified": "Monday 23 March 2015", 
+    "file_ipynb": "https://raw.githubusercontent.com/plotly/IPython-plotly/master/notebooks/mongo/mongo.ipynb", 
+    "title": "Using Plotly, Node.js, and MongoDB Together to Create TimeSeries Graphs", 
+    "file_py": "https://raw.githubusercontent.com/plotly/IPython-plotly/master/notebooks/mongo/mongo.py"
+}
